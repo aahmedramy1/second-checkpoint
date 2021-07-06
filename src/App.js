@@ -1,4 +1,4 @@
-
+import logo from './logo.png';
 import './App.css';
 import { Navbar, Nav, Form, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -16,6 +16,7 @@ function App() {
           </Nav>
         </Navbar>
         <div className="App-body">
+        <img src={logo} className = "App-logo" alt="logo" />
         <Form>
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
