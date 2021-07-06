@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,6 +26,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.formButton {
+  margin: 5%;
+}
+
+.brandName {
+  margin-left: 2%;
 }
 
 @keyframes App-logo-spin {
